@@ -11,7 +11,7 @@ int main() {
 	} while (size <= 0);
 
 
-	init_random(array, size, 0, 100);
+	init_rnd(array, size, 0, 100);
 
 	print("Array:\n");
 	print(convert(array, size));
