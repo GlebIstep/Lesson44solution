@@ -1,0 +1,6 @@
+#include "logic.h"
+
+void print(string s);
+void init_rnd(int array[DEFAULT_SIZE], int length, int a, int b);
+string convert(int array[DEFAULT_SIZE], int length);
+int count_non_zero_elements(int array[DEFAULT_SIZE], int length);
